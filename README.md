@@ -7,7 +7,7 @@ Build an app for Screens, Envoy's upcoming digital signage platform.
 ### Where to start?
 
 1. Make sure you have a GitHub account (https://github.com/signup)
-2. Fork this repository
+2. Fork this repository (https://github.com/envoy/hack-night-2025/fork)
 3. Fill in the team/app form below
 4. Start hacking!
 
@@ -21,6 +21,8 @@ Build an app for Screens, Envoy's upcoming digital signage platform.
 <br/>
 
 ---
+
+<br/>
 
 ### Team name
 
@@ -43,6 +45,8 @@ Build an app for Screens, Envoy's upcoming digital signage platform.
 <br/>
 
 ---
+
+<br/>
 
 ### App ideas
 
