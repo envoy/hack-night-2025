@@ -26,17 +26,17 @@ Build an app for Screens, Envoy's upcoming digital signage platform.
 
 ### Team name
 
-<!-- Team name -->
+Oregon Ducks
 
 ### Team members
 
-1. \_<!-- Team member -->
-2. \_<!-- Team member (optional) -->
-3. \_<!-- Team member (optional) -->
+1. \_Ethan Terrero
+2. \_Miguel Pimienta 
+3. \_Alex Rankine
 
 ### App name
 
-<!-- App name -->
+Daily News
 
 ### App description (optional)
 
