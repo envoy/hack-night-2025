@@ -30,9 +30,9 @@ Oregon Ducks
 
 ### Team members
 
-1. \_Ethan Terrero
-2. \_Miguel Pimienta 
-3. \_Alex Rankine
+1. \Ethan Terrero
+2. \Miguel Pimienta 
+3. \Alex Rankine
 
 ### App name
 
