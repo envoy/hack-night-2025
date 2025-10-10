@@ -1,4 +1,4 @@
-# Hack Night 2025 - Digital Signage App
+# Hack Night 2025 - What's up
 
 ## Quick Start
 
