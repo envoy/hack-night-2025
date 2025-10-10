@@ -16,3 +16,23 @@ function getCategoryStyle(category: string) {
   return categoryStyles[category] ?? "bg-slate-200 text-slate-700";
 }
 
+function formatDate(date: Date) {
+  return date.toLocaleDateString("en-US", {
+    weekday: "long",
+    month: "short",
+    day: "2-digit",
+  });
+}
+
+function formatTime(date: Date) {
+  return date.toLocaleTimeString("en-US", {
+    hour: "numeric",
+    minute: "2-digit",
+  });
+}
+
+function relativeTimeFrom(timestamp: string | undefined, now: Date) {
+  if (!timestamp) return null;
+  const then = new Date(timestamp);
+  const diff = now.getTime() - then.getTime();
+  if (Number.isNaN(diff)) return null;
