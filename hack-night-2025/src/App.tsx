@@ -1,34 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useEffect, useState } from "react";
+import { fetchDailyNews, type Card } from "./util/fetchDailyNews";
+import TickerBar from "./components/TickerBar";
+import "./index.css";
 
-function App() {
-  const [count, setCount] = useState(0)
+const categoryStyles: Record<string, string> = {
+  top: "bg-[#ffe7de] text-[#ff4f00]",
+  tech: "bg-[#e6f0ff] text-[#2c5cff]",
+  sports: "bg-[#e8f8f0] text-[#0f9158]",
+  markets: "bg-[#fff3d9] text-[#c76b00]",
+  local: "bg-[#f1ecff] text-[#5d3dce]",
+  weather: "bg-[#e1f5ff] text-[#0077b6]",
+};
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+function getCategoryStyle(category: string) {
+  return categoryStyles[category] ?? "bg-slate-200 text-slate-700";
 }
 
-export default App
